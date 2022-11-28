@@ -1,0 +1,51 @@
+/* /* .image-button{
+   border: none;
+   background-color: transparent;
+}
+
+.image-details-after{
+    height: 500px;
+    width: 500px;
+    flex:1 1 0
+}
+.image-container-total{
+    display: flex;
+    flex-direction: row;
+    min-width: 700px;
+    
+}
+.image-container-total {
+    flex: 1 1 0;
+
+} 
+.image{
+    border-radius: 10px;
+} *
+ */
+.image-button{
+border:none;
+background:transparent ;
+
+}
+.image-conatiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image{
+    border-radius: 8px;
+    height: 180px;
+    width: 180px;
+}
+.details-card{
+    display: flex;
+    flex-direction: row;
+}
+@media  screen and (max-width:450px) {
+    .image{
+       height: 100px;
+       width: 100px;
+    }
+    
+}

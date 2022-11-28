@@ -1,0 +1,41 @@
+.icons-close{
+position:relative;
+top:-340px;
+z-index:10;
+background-color: antiquewhite;
+margin-left: 10px;
+border-radius:50% ;
+}
+.details-image{
+border-radius: 10px;
+}
+.display-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    margin: 10px;
+    border-radius: 8px;
+    padding: 25px;
+    flex: 1 1 0;
+}
+
+.display-user h5{
+    margin:20px;
+}
+.image-conatiner-details{
+display:flex;
+flex-direction: column;
+flex: 1 1 0;
+}
+.image-conatiner-details div{
+    position: relative;
+}
+
+@media  screen and (max-width:450px) {
+    .details-image{
+       height: 150px;
+       width: 250px;
+    }
+    
+}

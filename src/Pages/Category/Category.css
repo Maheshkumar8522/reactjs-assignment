@@ -1,0 +1,5 @@
+.image-container-1{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}

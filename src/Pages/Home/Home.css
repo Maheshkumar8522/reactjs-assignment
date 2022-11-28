@@ -1,0 +1,8 @@
+.home-image-container{
+    margin: 10px;    
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+    }

@@ -1,0 +1,16 @@
+.navbar-container{
+   position: sticky;
+   top:0;
+   box-shadow: 5px 5px 5px #aaaaaa;   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   background-color: aliceblue;
+}
+@media screen and (min-width:450px){
+    .threedots{
+        display: none;
+    }
+    
+}
